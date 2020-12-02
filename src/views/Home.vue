@@ -5,48 +5,18 @@
         <form class="pure-form">
             Search: <i class="fas fa-search"></i><input v-model="searchText" />
         </form>
-        <ClassData :classes="filteredData" @course-add="courseAdded"/>
       </div>
       <div>
-        <h1>Cart:</h1>
-        <div id="cart" v-for="cart in cartList" :key="cart.name">
-          <p>{{cart.name}}</p>
-        </div>
       </div>
     </div>
-    <cart/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import ClassData from '@/components/ClassList.vue'
-import data from '../assets/class-data';
-
 export default {
-  name: 'Home',
-  components: {
-    ClassData,
-  },
-  data() {
-    return {
-      cartList: [],
-      searchText: '',
-      data
-    }
-  },
-  methods: {
-    courseAdded(id){
-      this.cartList.push(id);
-    }
-  },
-  computed: {
-    filteredData(){
-      return this.data.filter(item => item.name.includes(this.searchText));
-    }
-  }
 }
 </script>
+
 <style scoped>
   .search-bar {
     margin-bottom: 30px;
