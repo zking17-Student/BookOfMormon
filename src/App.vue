@@ -2,13 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/browse">Browse</router-link> |
-      <router-link to="/help">Homework Help</router-link>
+      <router-link to="/Alma-Amulek">Alma and Amulek</router-link> |
+      <router-link to="/Teancum">Homework Help</router-link>
+      <router-link to="/Gadianton">Homework Help</router-link>
     </div>
     <router-view/>
-    <footer>
-      <p>Github link: <a href="https://github.com/victorvel/vue-classes">here.</a></p>
-    </footer>
   </div>
 </template>
 
