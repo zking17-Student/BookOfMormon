@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <div class="search-bar">
+    <div><h1>Click on a story to begin:</h1></div>
+    <div class="story-container">
       <div class="stories">
         <router-link to="/Alma-Amulek">Alma and Amulek</router-link>
       </div>
@@ -19,7 +20,7 @@ export default {};
 </script>
 
 <style scoped>
-.search-bar {
+.story-container {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-around;
@@ -39,5 +40,9 @@ export default {};
   justify-content: center;
   align-items: center;
   margin: 5px 5px 5px 5px;
+}
+a {
+  text-decoration: none;
+  font-size: 2.5vw;
 }
 </style>

@@ -24,11 +24,9 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 footer {
   position: fixed;
   left: 0;
