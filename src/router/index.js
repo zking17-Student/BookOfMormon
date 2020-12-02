@@ -13,17 +13,17 @@ const routes = [
   {
     path: '/Gadianton',
     name: 'Gadianton',
-    component: () => import('../views/HWhelp.vue')
+    component: () => import('../views/Gadianton.vue')
   },
   {
     path: '/Alma-Amulek',
     name: 'Alma-Amulek',
-    component: () => import( '../views/Browse.vue')
+    component: () => import( '../views/Alma-Amulek.vue')
   },
   {
     path: '/Teancum',
     name: 'Teancum',
-    component: () => import( '../views/Browse.vue')
+    component: () => import( '../views/Teancum.vue')
   },
 ]
 
