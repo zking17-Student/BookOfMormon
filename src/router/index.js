@@ -22,9 +22,9 @@ const routes = [
   },
   //Start Teancum
   {
-    path: 'views-Teancum/Teancum',
+    path: '/Teancum',
     name: 'Teancum',
-    component: () => import( '../views-Teancum/Teancum.vue')
+    component: () => import( '../views/Teancum.vue')
   },
   {
     path: '/Kneel',
