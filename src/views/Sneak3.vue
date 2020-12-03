@@ -1,21 +1,22 @@
 <template>
-  <div class="Convince">
+  <div class="Sneak3">
     <div>
       <h1>
-        They begin to clean
+        You attempt to sneak out, but you get caught!
       </h1>
     </div>
     <div>
       <p>
-        What do you do?
+        Your parents catch you and you get grounded for a month. Although you
+        have to clean your room anwyay you don't get to go out with friends :(
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Leave3" tag="button" class="choices">
-        <p>Leave them alone to clean while you go out with your friends</p>
+      <router-link to="/Home" tag="button" class="choices">
+        <p>Go Home</p>
       </router-link>
-      <router-link to="/Help" tag="button" class="choices">
-        <p>Help them clean</p>
+      <router-link to="/Real-Alma" tag="button" class="choices">
+        <p>Try this story again</p>
       </router-link>
     </div>
   </div>
@@ -23,7 +24,7 @@
 
 <script>
 export default {
-  name: "Convince.vue",
+  name: "Sneak3.vue",
   components: {},
 };
 </script>
