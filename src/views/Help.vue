@@ -1,22 +1,22 @@
 <template>
-  <div class="Real-Alma">
+  <div class="Help">
     <div>
       <h1>
-        Read the story and choose what you would do:
+        You help them clean up
       </h1>
     </div>
     <div>
       <p>
-        You want to hang out with friends but your parents say you and your
-        sibling must clean your rooms first.
+        Cleaning goes by really quickly! You finish early enough to still hang
+        out with your friends. You go and have a great time!
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Start-Clean" tag="button" class="choices">
-        <p>Be obedient</p>
+      <router-link to="/Home" tag="button" class="choices">
+        <p>Go Home</p>
       </router-link>
-      <router-link to="/Sneak3" tag="button" class="choices">
-        <p>Try to sneak out</p>
+      <router-link to="/Real-Alma" tag="button" class="choices">
+        <p>Try this story again</p>
       </router-link>
     </div>
   </div>
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "Real-Alma.vue",
+  name: "Help.vue",
   components: {},
 };
 </script>

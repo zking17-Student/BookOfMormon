@@ -1,19 +1,18 @@
 <template>
-  <div class="Real-Alma">
+  <div class="Start-Clean">
     <div>
       <h1>
-        Read the story and choose what you would do:
+        You go to your room and see your sibling on the ground playing with something
       </h1>
     </div>
     <div>
       <p>
-        You want to hang out with friends but your parents say you and your
-        sibling must clean your rooms first.
+        You talk to them and they say they don't want to clean either. What do you do?
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Start-Clean" tag="button" class="choices">
-        <p>Be obedient</p>
+      <router-link to="/Convince" tag="button" class="choices">
+        <p>Convince them to clean</p>
       </router-link>
       <router-link to="/Sneak3" tag="button" class="choices">
         <p>Try to sneak out</p>
@@ -24,7 +23,7 @@
 
 <script>
 export default {
-  name: "Real-Alma.vue",
+  name: "Start-Clean.vue",
   components: {},
 };
 </script>
