@@ -1,23 +1,22 @@
 <template>
-  <div class="Alma-Amulek">
+  <div class="Real-Alma">
     <div>
       <h1>
-        You have decided to stay with Amulek.
+        Read the story and choose what you would do:
       </h1>
     </div>
     <div>
       <p>
-        What will you do?
+        You want to hang out with friends but your parents say you and your
+        sibling must clean your rooms first.
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Invite" tag="button" class="choices">
-        <p>Invite Amulek to preach with you</p>
+      <router-link to="/Return" tag="button" class="choices">
+        <p>Return to Ammonniha</p>
       </router-link>
-      <router-link to="/Alone" tag="button" class="choices">
-        <p>
-          Preach by yourself
-        </p>
+      <router-link to="/Leave" tag="button" class="choices">
+        <p>Go somewhere more prepared for your message</p>
       </router-link>
     </div>
   </div>
@@ -25,7 +24,7 @@
 
 <script>
 export default {
-  name: "Stay",
+  name: "Real-Alma.vue",
   components: {},
 };
 </script>

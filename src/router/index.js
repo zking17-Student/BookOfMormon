@@ -16,9 +16,9 @@ const routes = [
     component: () => import('../views/Gadianton.vue')
   },
   {
-    path: '/Alma-Amulek',
+    path: '/views-Alma/Alma-Amulek',
     name: 'Alma-Amulek',
-    component: () => import( '../views/Alma-Amulek.vue')
+    component: () => import( '../views/views-Alma/Alma-Amulek.vue')
   },
   {
     path: '/Teancum',
@@ -26,49 +26,74 @@ const routes = [
     component: () => import( '../views/Teancum.vue')
   },
   {
-    path: '/Kneel',
+    path: '/views-Teancum/Kneel',
     name: 'Kneel',
-    component: () => import( '../views/Kneel.vue')
+    component: () => import( '../views/views-Teancum/Kneel.vue')
   },
   {
-    path: '/Sneak',
+    path: '/views-Teancum/Sneak',
     name: 'Sneak',
-    component: () => import( '../views/Sneak.vue')
+    component: () => import( '../views/views-Teancum/Sneak.vue')
   },
   {
-    path: '/Sneak2',
+    path: '/views-Teancum/Sneak2',
     name: 'Sneak2',
-    component: () => import( '../views/Sneak2.vue')
+    component: () => import( '../views/views-Teancum/Sneak2.vue')
   },
   {
-    path: '/Kill',
+    path: '/views-Teancum/Kill',
     name: 'Kill',
-    component: () => import( '../views/Kill.vue')
+    component: () => import( '../views/views-Teancum/Kill.vue')
   },
   {
-    path: '/Real-Teancum',
+    path: '/views-Teancum/Real-Teancum',
     name: 'Real-Teancum',
-    component: () => import( '../views/Real-Teancum.vue')
+    component: () => import( '../views/views-Teancum/Real-Teancum.vue')
   },
   {
-    path: '/Kneel2',
+    path: '/views-Teancum/Kneel2',
     name: 'Kneel2',
-    component: () => import( '../views/Kneel2.vue')
+    component: () => import( '../views/views-Teancum/Kneel2.vue')
   },
   {
-    path: '/Insta',
+    path: '/views-Teancum/Insta',
     name: 'Insta',
-    component: () => import( '../views/Insta.vue')
+    component: () => import( '../views/views-Teancum/Insta.vue')
   },
   {
-    path: '/Dirt',
+    path: '/views-Teancum/Dirt',
     name: 'Dirt',
-    component: () => import( '../views/Dirt.vue')
+    component: () => import( '../views/views-Teancum/Dirt.vue')
   },
   {
-    path: '/Mean',
+    path: '/views-Teancum/Mean',
     name: 'Mean',
-    component: () => import( '../views/Mean.vue')
+    component: () => import( '../views/views-Teancum/Mean.vue')
+  },
+  {
+    path: '/views-Alma/Return',
+    name: 'Return',
+    component: () => import( '../views/views-Alma/Return.vue')
+  },
+  {
+    path: '/views-Alma/Leave',
+    name: 'Leave',
+    component: () => import( '../views/views-Alma/Leave.vue')
+  },
+  {
+    path: '/views-Alma/Continue-Leave',
+    name: 'Continue-Leave',
+    component: () => import( '../views/views-Alma/Continue-Leave.vue')
+  },
+  {
+    path: '/views-Alma/Stay',
+    name: 'Stay',
+    component: () => import( '../views/views-Alma/Stay.vue')
+  },
+  {
+    path: '/views-Alma/Alone',
+    name: 'Alone',
+    component: () => import( '../views/views-Alma/Alone.vue')
   }
 ]
 

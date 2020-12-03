@@ -1,5 +1,5 @@
 <template>
-  <div class="Alma-Amulek">
+  <div class="Alone">
     <div>
       <h1>
         You begin teaching alone in Ammonihah again.
@@ -10,15 +10,16 @@
         It did not work. You are rejected and cast out. Not long after, the City
         of Ammonihah rises up and destroys the liberties of the Nephites. All
         are now slaves. Alma 8:17
+        Amulek is killed for his involement with you.
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Invite" tag="button" class="choices">
-        <p>Invite Amulek to preach with you</p>
+      <router-link to="/Alma-Amulek" tag="button" class="choices">
+        <p>Try this story again</p>
       </router-link>
-      <router-link to="/Alone" tag="button" class="choices">
+      <router-link to="/Real-Alma" tag="button" class="choices">
         <p>
-          Preach by yourself
+          Try a real-world example
         </p>
       </router-link>
     </div>
@@ -27,7 +28,7 @@
 
 <script>
 export default {
-  name: "Stay",
+  name: "Alone",
   components: {},
 };
 </script>
