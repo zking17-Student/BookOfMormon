@@ -84,6 +84,11 @@ const routes = [
     path: '/Continue-Leave',
     name: 'Continue-Leave',
     component: () => import( '../views/Continue-Leave.vue')
+  }, 
+  {
+    path: '/Real-Alma',
+    name: 'Real-Alma',
+    component: () => import( '../views/Real-Alma.vue')
   },
   {
     path: '/Stay',
