@@ -12,10 +12,7 @@
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="Home" tag="button" class="choices">
-        <p>Go home</p>
-      </router-link>
-      <router-link to="Real-Teancum" tag="button" class="choices">
+      <router-link to="/Real-Teancum" tag="button" class="choices">
         <p>Try this story again</p>
       </router-link>
     </div>
