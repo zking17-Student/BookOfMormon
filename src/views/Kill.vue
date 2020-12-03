@@ -2,27 +2,27 @@
   <div class="Teancum">
     <div>
       <h1>
-        Read the story and choose what you would do, pretending you are Teancum:
+        You have killed the enemy captain with a javelin!
       </h1>
     </div>
     <div>
       <p>
-        Alma 62:35 - And thus they did encamp for the night. For behold, the
-        Nephites and the Lamanites also were weary because of the greatness of
-        the march; therefore they did not resolve upon any stratagem in the
-        night-time, save it were Teancum; for he was exceedingly angry with
-        Ammoron, insomuch that he considered that Ammoron, and Amalickiah his
-        brother, had been the acause of this great and lasting war between them
-        and the Lamanites, which had been the cause of so much war and
-        bloodshed, yea, and so much famine.
+        And it came to pass that Teancum in his anger did go forth into the camp
+        of the Lamanites, and did let himself down over the walls of the city.
+        And he went forth with a cord, from place to place, insomuch that he did
+        find the king; and he did acast a javelin at him, which did pierce him
+        near the heart. But behold, the king did awaken his servants before he
+        died, insomuch that they did pursue Teancum, and slew him.
+
+        Because of your anger, you have died.
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="Sneak" tag="button" class="choices">
-        <p>Sneak into the city</p>
+      <router-link to="Real-Teancum" tag="button" class="choices">
+        <p>Try with a real-world example</p>
       </router-link>
-      <router-link to="/Kneel" tag="button" class="choices">
-        <p>Kneel and pray</p>
+      <router-link to="Teancum" tag="button" class="choices">
+        <p>Try this story again!</p>
       </router-link>
     </div>
   </div>
@@ -31,6 +31,7 @@
 <script>
 export default {
   name: "Teancum.vue",
+  Kill: false,
   components: {},
 };
 </script>

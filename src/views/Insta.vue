@@ -1,31 +1,40 @@
 <template>
-  <div class="home">
-    <div><h1>Click on a story to begin:</h1></div>
-    <div class="story-container">
-      <router-link to = "/Alma-Amulek" tag = button class="stories">
-        <router-link to="/Alma-Amulek">Alma and Amulek</router-link>
+  <div class="Teancum">
+    <div>
+      <h1>
+        You make a fake Instagram page.
+      </h1>
+    </div>
+    <div>
+      <p>
+        What do you do now?
+      </p>
+    </div>
+    <div class="choices-container">
+      <router-link to="Dirt" tag="button" class="choices">
+        <p>Ask around for gossip on your bully</p>
       </router-link>
-      <router-link to="/Teancum" tag = button class="stories">
-        <router-link to="/Teancum">Teancum</router-link>
-      </router-link>
-      <router-link to="/Gadianton" tag = button class="stories">
-        <router-link to="/Gadianton">Gadianton</router-link>
+      <router-link to="Kneel2" tag="button" class="choices">
+        <p>Kneel and pray</p>
       </router-link>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Insta.vue",
+  components: {},
+};
 </script>
 
 <style scoped>
-.story-container {
+.choices-container {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-around;
 }
-.stories {
+.choices {
   margin: 10px 30px;
   height: 200px;
   width: 450px;
@@ -41,7 +50,7 @@ export default {};
   align-items: center;
   margin: 5px 5px 5px 5px;
 }
-a {
+p {
   text-decoration: none;
   font-size: 2.5vw;
 }

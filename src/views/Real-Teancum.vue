@@ -2,26 +2,20 @@
   <div class="Teancum">
     <div>
       <h1>
-        Read the story and choose what you would do, pretending you are Teancum:
+        Read the story and choose what you would do:
       </h1>
     </div>
     <div>
       <p>
-        Alma 62:35 - And thus they did encamp for the night. For behold, the
-        Nephites and the Lamanites also were weary because of the greatness of
-        the march; therefore they did not resolve upon any stratagem in the
-        night-time, save it were Teancum; for he was exceedingly angry with
-        Ammoron, insomuch that he considered that Ammoron, and Amalickiah his
-        brother, had been the acause of this great and lasting war between them
-        and the Lamanites, which had been the cause of so much war and
-        bloodshed, yea, and so much famine.
+        There is a person at school that has been making fun of you and your
+        friends. You think they have fianlly gone too far.
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="Sneak" tag="button" class="choices">
-        <p>Sneak into the city</p>
+      <router-link to="Insta" tag="button" class="choices">
+        <p>Make a fake instagram page to make fun of them on</p>
       </router-link>
-      <router-link to="/Kneel" tag="button" class="choices">
+      <router-link to="/Kneel2" tag="button" class="choices">
         <p>Kneel and pray</p>
       </router-link>
     </div>
@@ -30,7 +24,7 @@
 
 <script>
 export default {
-  name: "Teancum.vue",
+  name: "Real-Teancum.vue",
   components: {},
 };
 </script>

@@ -2,22 +2,22 @@
   <div class="Alma-Amulek">
     <div>
       <h1>
-        Read the story and choose what you would do, pretending you are Alma:
+        You continue searching for another city.
       </h1>
     </div>
     <div>
       <p>
-        Alma 8: Introduction - Alma preaches and baptizes in Melek—He is
-        rejected in Ammonihah and leaves. An angel appears and commands you to
-        return to Ammonihah.
+        You manage to find another city and begin preaching there. Not long
+        after the City of Ammonihah rises up and destroys the liberties of the
+        Nephites. All are now slaves.
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Return" tag="button" class="choices">
-        <p>Return to Ammonniha</p>
+      <router-link to="/Real-Alma" tag="button" class="choices">
+        <p>Try a real-world example</p>
       </router-link>
-      <router-link to="/Leave" tag="button" class="choices">
-        <p>Go somewhere more prepared for your message</p>
+      <router-link to="/Alma-Amulek" tag="button" class="choices">
+        <p>Try this story again</p>
       </router-link>
     </div>
   </div>

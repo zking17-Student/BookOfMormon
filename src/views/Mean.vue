@@ -1,23 +1,22 @@
 <template>
-  <div class="Alma-Amulek">
+  <div class="Teancum">
     <div>
       <h1>
-        Read the story and choose what you would do, pretending you are Alma:
+        You posted a bunch of mean things about your bully.
       </h1>
     </div>
     <div>
       <p>
-        Alma 8: Introduction - Alma preaches and baptizes in Melek—He is
-        rejected in Ammonihah and leaves. An angel appears and commands you to
-        return to Ammonihah.
+        Your bully finds out it was you who made the account. They report it to
+        your school and you get expelled for bullying.
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Return" tag="button" class="choices">
-        <p>Return to Ammonniha</p>
+      <router-link to="Home" tag="button" class="choices">
+        <p>Go home</p>
       </router-link>
-      <router-link to="/Leave" tag="button" class="choices">
-        <p>Go somewhere more prepared for your message</p>
+      <router-link to="Real-Teancum" tag="button" class="choices">
+        <p>Try this story again</p>
       </router-link>
     </div>
   </div>
@@ -25,7 +24,7 @@
 
 <script>
 export default {
-  name: "Alma-Amulek.vue",
+  name: "Mean.vue",
   components: {},
 };
 </script>
@@ -57,4 +56,3 @@ p {
   font-size: 2.5vw;
 }
 </style>
-
