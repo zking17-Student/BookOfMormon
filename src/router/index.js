@@ -20,6 +20,7 @@ const routes = [
     name: 'Alma-Amulek',
     component: () => import( '../views/Alma-Amulek.vue')
   },
+  //Start Teancum
   {
     path: '/Teancum',
     name: 'Teancum',
@@ -45,6 +46,7 @@ const routes = [
     name: 'Kill',
     component: () => import( '../views/Kill.vue')
   },
+  //Start Real-Teancum
   {
     path: '/Real-Teancum',
     name: 'Real-Teancum',
@@ -70,6 +72,7 @@ const routes = [
     name: 'Mean',
     component: () => import( '../views/Mean.vue')
   },
+  //Start Alma-Amulek
   {
     path: '/Return',
     name: 'Return',
@@ -99,7 +102,28 @@ const routes = [
     path: '/Alone',
     name: 'Alone',
     component: () => import( '../views/Alone.vue')
-  }
+  },
+  //Start Real-Alma
+  {
+    path: '/Start-Clean',
+    name: 'Start-Clean',
+    component: () => import( '../views/Start-Clean.vue')
+  },
+  {
+    path: '/Convince',
+    name: 'Convince',
+    component: () => import( '../views/Convince.vue')
+  },
+  {
+    path: '/Help',
+    name: 'Help',
+    component: () => import( '../views/Help.vue')
+  },
+  {
+    path: '/Sneak3',
+    name: 'Sneak3',
+    component: () => import( '../views/Sneak3.vue')
+  },
 ]
 
 const router = new VueRouter({
