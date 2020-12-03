@@ -1,25 +1,24 @@
 <template>
-  <div class="Teancum">
+  <div class="Gadianton">
     <div>
       <h1>
-        You kneel and ask God what to do.
+        Read the story and choose what you would do as a youth leader:
       </h1>
     </div>
     <div>
       <p>
-        He guides you to not succumb to your anger and to go back and to talk
-        with your parents. He says he will help you. You talk with your parents.
-        The next day you are called into a meeting at school with your bully,
-        their parents, you, and your parents. They say sorry and you do not get
-        bullied again.
+        As a youth leader at your local church you begin to notice your youth struggling
+        with bigger and bigger problems. It seems as if the world is attacking them every day
+        in ways they can't handle alone.
+        What do you do?
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/" tag="button" class="choices">
-        <p>Home</p>
+      <router-link to="/Gather-Real" tag="button" class="choices">
+        <p>Gather everyone together at an activity</p>
       </router-link>
-      <router-link to="Real-Teancum" tag="button" class="choices">
-        <p>Try this story again!</p>
+      <router-link to="/Elite-Real" tag="button" class="choices">
+        <p>Grab your strongest youth and visit those in need</p>
       </router-link>
     </div>
   </div>
@@ -27,8 +26,7 @@
 
 <script>
 export default {
-  name: "Teancum.vue",
-  Kill: false,
+  name: "Gadianton.vue",
   components: {},
 };
 </script>

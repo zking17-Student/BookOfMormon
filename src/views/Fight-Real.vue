@@ -1,25 +1,24 @@
 <template>
-  <div class="Teancum">
+  <div class="Fight-Real">
     <div>
       <h1>
-        You kneel and ask God what to do.
+        You teach them to deal with their problems with humor
       </h1>
     </div>
     <div>
       <p>
-        He guides you to not succumb to your anger and to go back and to talk
-        with your parents. He says he will help you. You talk with your parents.
-        The next day you are called into a meeting at school with your bully,
-        their parents, you, and your parents. They say sorry and you do not get
-        bullied again.
+        It doesn't work. In the moment they are to scared to use what they
+        learned. Many are lost.
       </p>
     </div>
     <div class="choices-container">
       <router-link to="/" tag="button" class="choices">
-        <p>Home</p>
+        <p>
+          Go Home
+        </p>
       </router-link>
-      <router-link to="Real-Teancum" tag="button" class="choices">
-        <p>Try this story again!</p>
+      <router-link to="/Real-Gad" tag="button" class="choices">
+        <p>Try this story again</p>
       </router-link>
     </div>
   </div>
@@ -27,8 +26,7 @@
 
 <script>
 export default {
-  name: "Teancum.vue",
-  Kill: false,
+  name: "Fight-Real.vue",
   components: {},
 };
 </script>

@@ -11,11 +11,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/Gadianton',
-    name: 'Gadianton',
-    component: () => import('../views/Gadianton.vue')
-  },
-  {
     path: '/Alma-Amulek',
     name: 'Alma-Amulek',
     component: () => import( '../views/Alma-Amulek.vue')
@@ -129,6 +124,57 @@ const routes = [
     name: 'Sneak3',
     component: () => import( '../views/Sneak3.vue')
   },
+  //Begin Gadianton
+  {
+    path: '/Gadianton',
+    name: 'Gadianton',
+    component: () => import('../views/Gadianton.vue')
+  },
+  {
+    path: '/Elite',
+    name: 'Elite',
+    component: () => import( '../views/Elite.vue')
+  },
+  {
+    path: '/Gather',
+    name: 'Gather',
+    component: () => import( '../views/Gather.vue')
+  },
+  {
+    path: '/Real-Gad',
+    name: 'Real-Gad',
+    component: () => import( '../views/Real-Gad.vue')
+  },
+  {
+    path: '/Fight',
+    name: 'Fight',
+    component: () => import( '../views/Fight.vue')
+  },
+  {
+    path: '/Pray',
+    name: 'Pray',
+    component: () => import( '../views/Pray.vue')
+  },
+  {
+    path: '/Gather-Real',
+    name: 'Gather-Real',
+    component: () => import( '../views/Gather-Real.vue')
+  },
+  {
+    path: '/Fight-Real',
+    name: 'Fight-Real',
+    component: () => import( '../views/Fight-Real.vue')
+  },
+  {
+    path: '/Elite-Real',
+    name: 'Elite-Real',
+    component: () => import( '../views/Elite-Real.vue')
+  },
+  {
+    path: '/Pray-Real',
+    name: 'Pray-Real',
+    component: () => import( '../views/Pray-Real.vue')
+  }
 ]
 
 const router = new VueRouter({

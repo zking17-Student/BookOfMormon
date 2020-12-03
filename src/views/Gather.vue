@@ -1,25 +1,23 @@
 <template>
-  <div class="Teancum">
+  <div class="Gather">
     <div>
       <h1>
-        You kneel and ask God what to do.
+        You gather the people in one land
       </h1>
     </div>
     <div>
       <p>
-        He guides you to not succumb to your anger and to go back and to talk
-        with your parents. He says he will help you. You talk with your parents.
-        The next day you are called into a meeting at school with your bully,
-        their parents, you, and your parents. They say sorry and you do not get
-        bullied again.
+        3 Nephi 3:24 24 And there were a great many thousand people who were called Nephites,
+        who did gather themselves together in this land.
+        What do you teach the people?
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/" tag="button" class="choices">
-        <p>Home</p>
+      <router-link to="/Pray" tag="button" class="choices">
+        <p>Teach the people to repent, pray, and trust God</p>
       </router-link>
-      <router-link to="Real-Teancum" tag="button" class="choices">
-        <p>Try this story again!</p>
+      <router-link to="/Fight" tag="button" class="choices">
+        <p>Teach the people to fight and wield all manner of weapons</p>
       </router-link>
     </div>
   </div>
@@ -27,8 +25,7 @@
 
 <script>
 export default {
-  name: "Teancum.vue",
-  Kill: false,
+  name: "Gather.vue",
   components: {},
 };
 </script>
