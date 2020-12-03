@@ -5,7 +5,7 @@
       <router-link to = "/Alma-Amulek" tag = button class="stories">
         <router-link to="/Alma-Amulek">Alma and Amulek</router-link>
       </router-link>
-      <router-link to="/Teancum" tag = button class="stories">
+      <router-link to="views-Teancum/Teancum" tag = button class="stories">
         <router-link to="/Teancum">Teancum</router-link>
       </router-link>
       <router-link to="/Gadianton" tag = button class="stories">
