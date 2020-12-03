@@ -103,6 +103,11 @@ const routes = [
     name: 'Alone',
     component: () => import( '../views/Alone.vue')
   },
+  {
+    path: '/Invite',
+    name: 'Invite',
+    component: () => import( '../views/Invite.vue')
+  },
   //Start Real-Alma
   {
     path: '/Start-Clean',
