@@ -2,23 +2,24 @@
   <div class="Alma-Amulek">
     <div>
       <h1>
-        You continue searching for another city.
+        You begin teaching alone in Ammonihah again.
       </h1>
     </div>
     <div>
       <p>
-        You manage to find another city and begin preaching there. Not long
-        after, the City of Ammonihah rises up and destroys the liberties of the
-        Nephites. All are now slaves.
-        Alma 8:17
+        It did not work. You are rejected and cast out. Not long after, the City
+        of Ammonihah rises up and destroys the liberties of the Nephites. All
+        are now slaves. Alma 8:17
       </p>
     </div>
     <div class="choices-container">
-      <router-link to="/Real-Alma" tag="button" class="choices">
-        <p>Try a real-world example</p>
+      <router-link to="/Invite" tag="button" class="choices">
+        <p>Invite Amulek to preach with you</p>
       </router-link>
-      <router-link to="/Alma-Amulek" tag="button" class="choices">
-        <p>Try this story again</p>
+      <router-link to="/Alone" tag="button" class="choices">
+        <p>
+          Preach by yourself
+        </p>
       </router-link>
     </div>
   </div>
@@ -26,7 +27,7 @@
 
 <script>
 export default {
-  name: "Alma-Amulek.vue",
+  name: "Stay",
   components: {},
 };
 </script>
@@ -58,4 +59,3 @@ p {
   font-size: 2.5vw;
 }
 </style>
-
